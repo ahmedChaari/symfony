@@ -1,0 +1,302 @@
+Script started on 2021-08-28 07:44:58+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="83" LINES="37"]
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ sudo -iSUDO -Igit add README.MD[10PSUDO -Isudo -i[Ksudo -iSUDO -Igit add README.MDinit[K[3Pclearphp artisan servesudo /opt/lampp/lampp start^C
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ sudo -iSUDO -Igit add README.MDinit[K[3Pclearphp artisan servesudo /opt/lampp/lampp startclear[Knetstat[2Pclear[1Plsofclearsudo lsof -i -P -n | grep LISTENcode .[Kd Bureau/www/AjaxLaravel/ode .[K[1Plearng serve^C
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ composer require twig
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+Using version [32m^1.0[39m for [32msymfony/twig-pack[39m
+[32m./composer.json has been updated[39m
+[32mLoading composer repositories with package information[39m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mUpdating dependencies (including require-dev)[39m
+[32mRestricting packages listed in "symfony/symfony" to "4.4.*"[39m
+[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Installing [32msymfony/twig-pack[39m ([33mv1.0.1[39m): Loading from cache
+[30;43mPackage symfony/inflector is abandoned, you should avoid using it. Use use `EnglishInflector` from the String component instead instead.[39;49m
+[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m109 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+[32mUnpacking Symfony packs[39m
+  - Unpacked [32msymfony/twig-pack[39m
+PHP Fatal error:  Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+
+Fatal error: Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ composer "update symfony/*"
+
+[37;41m                                              [39;49m
+[37;41m  Command "update symfony/*" is not defined.  [39;49m
+[37;41m                                              [39;49m
+
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ composer update "symfony/*" --with-all-dependencies
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mLoading composer repositories with package information[39m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mUpdating dependencies (including require-dev)[39m
+[32mRestricting packages listed in "symfony/symfony" to "4.4.*"[39m
+[32mPackage operations: 0 installs, 0 updates, 1 removal[39m
+  - Removing [32msymfony/twig-pack[39m ([33mv1.0.1[39m)
+[30;43mPackage symfony/inflector is abandoned, you should avoid using it. Use use `EnglishInflector` from the String component instead instead.[39;49m
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m108 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ composer update "symfony/*" --with-all-dependencies[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[7P"update symfony/*"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Komposer require twiglear[Ksudo -i[K[K[K[K[K[K[Kcomposer uq[Kpdate
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mLoading composer repositories with package information[39m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mUpdating dependencies (including require-dev)[39m
+[32mRestricting packages listed in "symfony/symfony" to "4.4.*"[39m
+Nothing to install or update
+[30;43mPackage symfony/inflector is abandoned, you should avoid using it. Use use `EnglishInflector` from the String component instead instead.[39;49m
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m108 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ composer update "symfony/*" --with-all-dependencies[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[7P"update symfony/*"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Komposer require twig
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+Using version [32m^1.0[39m for [32msymfony/twig-pack[39m
+[32m./composer.json has been updated[39m
+[32mLoading composer repositories with package information[39m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mUpdating dependencies (including require-dev)[39m
+[32mRestricting packages listed in "symfony/symfony" to "4.4.*"[39m
+[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Installing [32msymfony/twig-pack[39m ([33mv1.0.1[39m): Loading from cache
+[30;43mPackage symfony/inflector is abandoned, you should avoid using it. Use use `EnglishInflector` from the String component instead instead.[39;49m
+[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m109 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+[32mUnpacking Symfony packs[39m
+  - Unpacked [32msymfony/twig-pack[39m
+PHP Fatal error:  Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+
+Fatal error: Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clearomposer require twig^C
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clearomposer require twig[K[K[K[Kdoctrine
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+Using version [32m^2.1[39m for [32msymfony/orm-pack[39m
+[32m./composer.json has been updated[39m
+[32mLoading composer repositories with package information[39m
+[30;43mWarning from https://repo.packagist.org: Support for Composer 1 is deprecated and some packages will not be available. You should upgrade to Composer 2. See https://blog.packagist.com/deprecating-composer-1-support/[39;49m
+[32mUpdating dependencies (including require-dev)[39m
+[32mRestricting packages listed in "symfony/symfony" to "4.4.*"[39m
+[32mPackage operations: 1 install, 0 updates, 1 removal[39m
+  - Removing [32msymfony/twig-pack[39m ([33mv1.0.1[39m)
+  - Installing [32msymfony/orm-pack[39m ([33mv2.1.0[39m): Loading from cache
+[30;43mPackage symfony/inflector is abandoned, you should avoid using it. Use use `EnglishInflector` from the String component instead instead.[39;49m
+[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m109 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+[32mUnpacking Symfony packs[39m
+  - Unpacked [32msymfony/orm-pack[39m
+PHP Fatal error:  Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+
+Fatal error: Uncaught Error: Call to undefined method Composer\Installer::setUpdateAllowList() in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code:977
+Stack trace:
+#0 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(955): Symfony\Flex\Flex_composer_tmp0->reinstall()
+#1 /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code(372): Symfony\Flex\Flex_composer_tmp0->unpack()
+#2 [internal function]: Symfony\Flex\Flex_composer_tmp0->update()
+#3 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(164): call_user_func()
+#4 /usr/share/php/Composer/EventDispatcher/EventDispatcher.php(96): Composer\EventDispatcher\EventDispatcher->doDispatch()
+#5 /usr/share/php/Composer/Installer.php(338): Composer\EventDispatcher\EventDispatcher->dispatchScript()
+#6 /usr/share/php/Composer/Command/RequireCommand.php(248): Composer\Installer->run()
+#7 /usr/share/php/Composer/Command/RequireCommand.php(205): Composer\Command\RequireCommand->doUpdate()
+#8 /home/ph/Bureau/www/projet_symfon in /usr/share/php/Composer/Plugin/PluginManager.php(196) : eval()'d code on line 977
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ bin/console database:doctrine crea te[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccreate[K[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:create[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[37;41m                                                                       [39;49m
+[37;41m  There are no commands defined in the "database:doctrine" namespace.  [39;49m
+[37;41m                                                                       [39;49m
+
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ bin/console database:doctrine:create[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdoctrine:create[K[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdoctrine:create [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pdoctrine:create
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pdoctrine:create[1Pdoctrine:create[1Pdoctrine:create[1Pdoctrine:create[1Pdoctrine:create[1Poctrine:create[C[C[C[C[C[C[C[C[Cdcreateacreatetcreateacreatebcreateacreatescreate [A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecreate[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:create[A]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[37;41mCould not create database [39;49m[33m`symfony4`[39m[37;41m for connection named [39;49m[33mdefault[39m
+[37;41mAn exception occurred while executing 'CREATE DATABASE `symfony4`':
+
+SQLSTATE[HY000]: General error: 1007 Can't create database 'symfony4'; database exists[39;49m
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clearbin/console doctrine:database:create[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake:entity
+
+ [32mClass name of the entity to create or update (e.g. [39m[33mVictoriousKangaroo[39m[32m)[39m:
+ > t[Ka[Ks[Kk[K
+
+ [34mcreated[39m: src/Entity/Task.php
+ [34mcreated[39m: src/Repository/TaskRepository.php
+ 
+ Entity generated! Now let's add some fields!
+ You can always add more fields later manually or by re-running this command.
+
+ [32mNew property name (press [39m[32m<return>[39m[32m to stop adding fields)[39m:
+ > title
+
+ [32mField type (enter [39m[33m?[39m[32m to see all types)[39m [[33mstring[39m]:
+ > ;[K[1D[K
+
+ [32mField length[39m [[33m255[39m]:
+ > 
+
+ [32mCan this field be null in the database (nullable) (yes/no)[39m [[33mno[39m]:
+ > 
+
+ [33mupdated[39m: src/Entity/Task.php
+
+ [32mAdd another property? Enter the property name (or press [39m[32m<return>[39m[32m to stop adding fields)[39m:
+ > status
+
+ [32mField type (enter [39m[33m?[39m[32m to see all types)[39m [[33mstring[39m]:
+ > b[K7[30;47migint[39;49m8o[K7[30;47molean[39;49m8[K7[30;47molean[39;49m8olean
+
+ [32mCan this field be null in the database (nullable) (yes/no)[39m [[33mno[39m]:
+ > yes
+
+ [33mupdated[39m: src/Entity/Task.php
+
+ [32mAdd another property? Enter the property name (or press [39m[32m<return>[39m[32m to stop adding fields)[39m:
+ > 
+
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: When you're ready, create a migration with [32mphp bin/console make:migration[39m
+ 
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ bin/console migration
+
+[37;41m                                                 [39;49m
+[37;41m  Command "migration" is not defined.            [39;49m
+[37;41m                                                 [39;49m
+[37;41m  Did you mean one of these?                     [39;49m
+[37;41m      doctrine:migrations:current                [39;49m
+[37;41m      doctrine:migrations:diff                   [39;49m
+[37;41m      doctrine:migrations:dump-schema            [39;49m
+[37;41m      doctrine:migrations:execute                [39;49m
+[37;41m      doctrine:migrations:generate               [39;49m
+[37;41m      doctrine:migrations:latest                 [39;49m
+[37;41m      doctrine:migrations:list                   [39;49m
+[37;41m      doctrine:migrations:migrate                [39;49m
+[37;41m      doctrine:migrations:rollup                 [39;49m
+[37;41m      doctrine:migrations:status                 [39;49m
+[37;41m      doctrine:migrations:sync-metadata-storage  [39;49m
+[37;41m      doctrine:migrations:up-to-date             [39;49m
+[37;41m      doctrine:migrations:version                [39;49m
+[37;41m      make:migration                             [39;49m
+[37;41m                                                 [39;49m
+
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ bin/console migration[Cmigrationamigrationkmigrationemigration:migration
+
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Review the new migration [32m"[39m[32mmigrations/Version20210828071431.php[39m[32m"[39m
+ Then: Run the migration with [32mphp bin/console doctrine:migrations:migrate[39m
+ See [33mhttps://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html[39m
+]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clear
+[H[2J[3J]0;ph@Ph-HP: ~/Bureau/www/projet_symfony/my_project[01;32mph@Ph-HP[00m:[01;34m~/Bureau/www/projet_symfony/my_project[00m$ clearbin/console make:migration[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdoctrine![K:mirations:ma[Kig rate
+
+[37;41m                                                                        [39;49m
+[37;41m  There are no commands defined in the "doctrine:mirations" namespace.  [39;49m
+[37;41m                                                                        [39;49m
+[37;41m  Did you mean one of these?                                            [39;49m
+[37;41m      doctrine                                                          [39;49m
+[37;41m      doctrine:cache                                                    [39;49m
+[37;41m      doctrine:database                                                 [39;49m
+[37;41m      doctrine:mapping                                                  [39;49m
+[37;41m      doctrine:migrations                                               [39;49m
+[37;41m      doctrine:query                     
